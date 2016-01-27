@@ -1,0 +1,127 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2016-01-20 10:06+0800\n"
+"PO-Revision-Date: 2016-01-27 21:51+0100\n"
+"Last-Translator: peepso <paul@peepso.com>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsochat.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: chatso.pot\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/chatajax.php:140
+msgid "Error creating conversation"
+msgstr "Erreur lors de la création de la conversation"
+
+#: peepsochat.php:170
+msgid "is not compatible with"
+msgstr "n'est pas compatible avec"
+
+#: peepsochat.php:181
+msgid "Upgrade now!"
+msgstr "Mettre à jour maintenant !"
+
+#: peepsochat.php:257
+msgid "plugin requires the PeepSo plugin to be installed and activated."
+msgstr "ce plugin nécessite que le plugin PeepSo soit installé et activé."
+
+#: peepsochat.php:259 peepsochat.php:275
+msgid "Get it now!"
+msgstr "Obtenez-le maintenant !"
+
+#: peepsochat.php:273
+msgid "plugin requires the MsgSo plugin to be installed and activated."
+msgstr "ce plugin nécessite que le plugin MsgSo soit installé et activé."
+
+#: peepsochat.php:308
+#, php-format
+msgid "%s and %s"
+msgstr "%s et %s"
+
+#: peepsochat.php:309 peepsochat.php:310
+#, php-format
+msgid "%s and %d other"
+msgid_plural "%s and %d others"
+msgstr[0] "%s et %d autre"
+msgstr[1] "%s et %d autres"
+
+#: peepsochat.php:311 templates/chat/window.php:22
+msgid "Turn on chat"
+msgstr "Ouvrir la conversation"
+
+#: peepsochat.php:312
+msgid "Turn off chat"
+msgstr "Clore la conversation"
+
+#: peepsochat.php:313 templates/chat/window.php:26
+msgid "Mute conversation"
+msgstr "Mettre la conversation en sourdine"
+
+#: peepsochat.php:314
+msgid "Unmute conversation"
+msgstr "Désactiver la mise en sourdine pour cette conversation"
+
+#: peepsochat.php:378
+msgid "Enable chat"
+msgstr "Activer les conversations"
+
+#: peepsochat.php:384
+msgid "Open minimized chat window for new message"
+msgstr "Ouvrir une fenêtre de conversation lors d’un nouveau message"
+
+#: peepsochat.php:417
+msgid "Start a chat"
+msgstr "Démarrer une conversation"
+
+#: templates/chat/send-message.php:6 templates/chat/send-photos.php:8
+msgid "sending"
+msgstr "envoi"
+
+#: templates/chat/sidebar.php:6
+msgid "more"
+msgstr "plus"
+
+#: templates/chat/window.php:18
+msgid "This conversation is muted. New chat tabs will not pop up and you will not receive notifications."
+msgstr "Cette conversation a été mise en sourdine. Les nouvelles fenêtres de chat ne s'afficheront pas et vous ne recevrez plus de notifications."
+
+#: templates/chat/window.php:18
+msgid "Unmute"
+msgstr "Désactiver la mise en sourdine"
+
+#: templates/chat/window.php:19
+msgid "You turned off chat for this conversation but you can still send a message."
+msgstr "Vous avez désactivé le chat pour cette conversation, mais vous pouvez toujours envoyer un message."
+
+#: templates/chat/window.php:29
+msgid "View full conversation"
+msgstr "Voir la conversation complète"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Chat"
+msgstr "PeepSo Chat"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Add Chat capability to PeepSo, a Social Networking Plugin for WordPress"
+msgstr "Ajouter l'option Chat de PeepSo, un plugin de réseau social pour WordPress"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"

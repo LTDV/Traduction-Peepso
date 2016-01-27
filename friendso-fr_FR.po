@@ -1,0 +1,251 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2016-01-20 10:06+0800\n"
+"PO-Revision-Date: 2016-01-27 21:52+0100\n"
+"Last-Translator: peepso <paul@peepso.com>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsofriends.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: friendso.pot\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/friendsajax.php:54 classes/friendsajax.php:92
+#: classes/friendsajax.php:132 classes/friendsajax.php:166
+msgid "Notice"
+msgstr "Note"
+
+#: classes/friendsajax.php:55
+msgid "Friend Request Sent"
+msgstr "Demande d’ami envoyée"
+
+#: classes/friendsajax.php:93
+msgid "Friend Request Cancelled"
+msgstr "Demande d’ami annulée"
+
+#: classes/friendsajax.php:133 classes/friendsconfig.php:95
+msgid "Friend Request Accepted"
+msgstr "Demande d’ami acceptée"
+
+#: classes/friendsajax.php:167
+msgid "Friend Removed"
+msgstr "Ami supprimé"
+
+#: classes/friendsajax.php:188
+msgid "No notifications."
+msgstr "Pas de notification."
+
+#: classes/friendsappwidget.php:16
+msgid "Friends App"
+msgstr "Amis App"
+
+#: classes/friendsappwidget.php:17
+msgid "On profile pages, this will display avatars of up to 9 friends of the user who's profile page is being viewed. On Activity Stream pages, this will display friends of the current user that have recently made posts."
+msgstr "Sur les pages de profil, cela affichera les avatars jusqu’à 9 amis de l’utilisateur qui est le profil page est en cours de visualisation. Sur les pages du flux d’activités, cela affichera les amis de l’utilisateur actuel qui ont récemment envoyés des publications."
+
+#: classes/friendsconfig.php:39 peepsofriends.php:644
+msgid "Posts to show on the Activity Stream"
+msgstr "Montrer les publications sur le flux d’activité"
+
+#: classes/friendsconfig.php:57
+msgid "Members can send messages to"
+msgstr "Les membres peuvent envoyer des messages à"
+
+#: classes/friendsconfig.php:74
+msgid "Friends Settings"
+msgstr "Paramètres des amis"
+
+#: classes/friendsconfig.php:90
+msgid "Friend Request Received"
+msgstr "Demande d’ami reçue"
+
+#: classes/friendsconfig.php:91
+msgid "This will be sent to a user when a friend request is received."
+msgstr "Ceci sera envoyé à un utilisateur lorsqu’une demande est reçue."
+
+#: classes/friendsconfig.php:96
+msgid "This will be sent to a user when a friend request is accepted."
+msgstr "Ceci sera envoyé à un utilisateur lorsqu’une demande est acceptée."
+
+#: classes/friendspostswidget.php:16
+msgid "Friends Posts"
+msgstr "Publications de mes amis"
+
+#: classes/friendspostswidget.php:17
+msgid "This will select up to 5 posts, displaying the most recent post by each of up to five users that are friends."
+msgstr "Cela permet de sélectionner jusqu'à 5 publications, la publication la plus récente de chacun ami sera affichée. Jusqu'à cinq utilisateurs maximum !"
+
+#: classes/friendsrequests.php:57
+msgid "Friend request already sent"
+msgstr "La demande d’ami a déjà été envoyée"
+
+#: classes/friendsrequests.php:66 classes/friendsrequests.php:97
+#: classes/friendsrequests.php:133
+msgid "You do not have enough permissions."
+msgstr "Vous ne disposez pas de suffisamment d’autorisations."
+
+#: classes/friendsrequests.php:265 classes/friendsshortcode.php:161
+#: peepsofriends.php:822
+msgid " mutual friend"
+msgid_plural " mutual friends"
+msgstr[0] " Ami en commun"
+msgstr[1] " Amis en commun"
+
+#: classes/friendsrequests.php:452
+#, php-format
+msgid "New Friend Request from %s"
+msgstr "Nouvelle demande d’ami de %s"
+
+#: classes/friendsrequests.php:472
+#, php-format
+msgid "%s Accepted Your Friend Request"
+msgstr "%s a accepté ta demande d’ami"
+
+#: classes/friendsrequests.php:482
+msgid "accepted your friend request"
+msgstr "a accepté ta demande d’ami"
+
+#: classes/friendsrequests.php:495
+#, php-format
+msgid "Denied Friend Request from %s"
+msgstr "Demandes d’amis refusées de %s"
+
+#: classes/friendsrequests.php:523
+msgid "Friend Request Denied"
+msgstr "Demande d’ami refusée"
+
+#: classes/friendsrequests.php:533 classes/friendsrequests.php:543
+msgid "Friend Request Ignored"
+msgstr "Demande d’ami ignorée"
+
+#: classes/friendsshortcode.php:40
+msgid "friends"
+msgstr "Amis"
+
+#. Plugin Name of the plugin/theme
+#: classes/widgets/widgetfriends.php:17
+msgid "PeepSo Friends"
+msgstr "PeepSo Friends"
+
+#: classes/widgets/widgetfriends.php:18
+msgid "PeepSo Friends Widget"
+msgstr "PeepSo Amis Widget"
+
+#: install/activate.php:72 peepsofriends.php:332 peepsofriends.php:767
+#: peepsofriends.php:842 peepsofriends.php:854 peepsofriends.php:883
+#: templates/friends/friends.php:8 templates/friends/submenu.php:3
+msgid "Friends"
+msgstr "Amis"
+
+#: install/activate.php:77 peepsofriends.php:342 peepsofriends.php:360
+#: peepsofriends.php:770 templates/friends/pending.php:7
+msgid "Friend Requests"
+msgstr "Demandes d’amis"
+
+#: peepsofriends.php:311
+msgid "plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Ce plugin nécessite que le plugin PeepSo soit installé et activé."
+
+#: peepsofriends.php:313
+msgid "Get it now!"
+msgstr "Obtenez-le maintenant!"
+
+#: peepsofriends.php:337
+msgid "Show All"
+msgstr "Montrer tout"
+
+#: peepsofriends.php:347
+msgid "Search"
+msgstr "Rechercher"
+
+#: peepsofriends.php:423
+msgid "Friends Only"
+msgstr "Seulement les amis"
+
+#: peepsofriends.php:518 peepsofriends.php:527
+msgid "Friend"
+msgstr "Ami(e)"
+
+#: peepsofriends.php:523
+msgid "Remove friend"
+msgstr "Retirer cet(te) ami(e)"
+
+#: peepsofriends.php:526
+msgid "Remove Friend"
+msgstr "Supprimer l'ami(e)"
+
+#: peepsofriends.php:539 peepsofriends.php:544
+msgid "Cancel Friend Request"
+msgstr "Demande d’ami annulée"
+
+#: peepsofriends.php:555
+msgid "Accept"
+msgstr "Accepter"
+
+#: peepsofriends.php:560
+msgid "Accept Request"
+msgstr "Demande acceptée"
+
+#: peepsofriends.php:566
+msgid "Reject"
+msgstr "Refuser"
+
+#: peepsofriends.php:571
+msgid "Reject Request"
+msgstr "Demande rejetée"
+
+#: peepsofriends.php:593
+msgid "Add as Friend"
+msgstr "Ajouter comme ami"
+
+#: peepsofriends.php:598
+msgid "Add as your friend"
+msgstr "Ajouter comme ami(e)"
+
+#: templates/friends/notification-popover-item.php:17
+msgid "Ignore"
+msgstr "Ignorer"
+
+#: templates/friends/notification-popover-item.php:20
+msgid "Approve"
+msgstr "Approuver"
+
+#: templates/friends/submenu.php:6
+msgid "Friend requests"
+msgstr "Demande d’amis"
+
+#: templates/friends/submenu.php:7
+msgid "Sent friend requests"
+msgstr "Demandes d’amis envoyées"
+
+#: templates/messages/list-header.php:2
+msgid "New message"
+msgstr "Nouveau message"
+
+#: templates/widgets/friends.tpl.php:43
+msgid "View All"
+msgstr "Afficher tout"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Add Friends capability to PeepSo, a Social Networking Plugin for WordPress"
+msgstr "Rejoindre ses amis sur PeepSo, un plugin social pour WordPress"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"

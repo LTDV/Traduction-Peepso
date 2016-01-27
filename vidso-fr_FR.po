@@ -1,0 +1,101 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2016-01-20 10:07+0800\n"
+"PO-Revision-Date: 2016-01-27 21:53+0100\n"
+"Last-Translator: peepso <paul@peepso.com>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsovideos.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: vidso.pot\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/videosadmin.php:30 peepsovideos.php:716 peepsovideos.php:729
+#: peepsovideos.php:741 templates/videos/videos.php:10
+msgid "Videos"
+msgstr "Vidéos"
+
+#: classes/videosajax.php:40
+msgid "Sorry, this is not a valid video.<br><small>Please make sure you're using a valid URL, not and embed code.</small>"
+msgstr "Désolé, cette vidéo n’est pas valide.<br><small>S’il vous plaît assurez-vous que l’url est correcte, n’insérez pas de code embed.</small>"
+
+#. Plugin Name of the plugin/theme
+#: classes/widgets/widgetvideos.php:12
+msgid "PeepSo Videos"
+msgstr "vidéos PeepSo"
+
+#: classes/widgets/widgetvideos.php:13
+msgid "PeepSo Videos Widget"
+msgstr "PeepSo Videos Widget"
+
+#: peepsovideos.php:274
+msgid "plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Ce plugin nécessite que le plugin PeepSo soit installé et activé."
+
+#: peepsovideos.php:276
+msgid "Get it now!"
+msgstr "Obtenez-le maintenant!"
+
+#: peepsovideos.php:300
+msgid "Video"
+msgstr "Vidéo"
+
+#: peepsovideos.php:560
+msgid " posted a video"
+msgstr "a posté une vidéo"
+
+#: peepsovideos.php:649
+msgid "Upload videos"
+msgstr "Télécharger des vidéos"
+
+#: peepsovideos.php:753
+msgid "videos"
+msgstr "vidéos"
+
+#: templates/videos/post-edit.php:1
+msgid "Enter video URL here. Use browser link, not embed code."
+msgstr "Entrez l’url de la vidéo ici. Utilisez le lien internet et non le code embed"
+
+#: templates/videos/postbox-videos.php:5
+msgid "Enter video URL here"
+msgstr "Entrez l’url de la vidéo ici."
+
+#: templates/videos/videos.php:17
+msgid "Newest first"
+msgstr "Plus récentes"
+
+#: templates/videos/videos.php:18
+msgid "Oldest first"
+msgstr "Plus anciennes"
+
+#: templates/widgets/videos.tpl.php:35
+msgid "View All"
+msgstr "Afficher tout"
+
+#: templates/widgets/videos.tpl.php:43
+msgid "No videos"
+msgstr "Aucune vidéo"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Add Videos capability to PeepSo, a Social Networking Plugin for WordPress"
+msgstr "Partagez des vidéos avec PeepSo, un plugin de réseau social pour WordPress"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"

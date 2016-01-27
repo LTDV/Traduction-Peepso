@@ -1,0 +1,71 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2016-01-20 10:05+0800\n"
+"PO-Revision-Date: 2016-01-27 21:52+0100\n"
+"Last-Translator: peepso <paul@peepso.com>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsotags.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: tagso.pot\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: peepsotags.php:184
+msgid "plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Ce plugin nécessite que le plugin PeepSo soit installé et activé."
+
+#: peepsotags.php:186
+msgid "Get it now!"
+msgstr "Obtenez-le maintenant!"
+
+#: peepsotags.php:276
+msgid "Tagged you in a post"
+msgstr "vous a tagué dans une publication"
+
+#: peepsotags.php:292
+msgid "You Were Tagged in a Post"
+msgstr "Vous avez été tagué dans une publication"
+
+#: peepsotags.php:308
+msgid "User Tagged Email"
+msgstr "E-mail envoyé à l’utilisateur tagué"
+
+#: peepsotags.php:309
+msgid "This will be sent to a user when a tagged in post."
+msgstr "Ceci sera envoyé lorsque l’utilisateur a été tagué dans une publication."
+
+#: peepsotags.php:331
+msgid "Tags"
+msgstr "Tags"
+
+#: peepsotags.php:334
+msgid "You were Tagged in a Post"
+msgstr "Vous avez été tagué dans une publication"
+
+#. Plugin Name of the plugin/theme
+msgid "PeepSo Tags"
+msgstr "PeepSo Tags"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Add Tags capability to PeepSo, a Social Networking Plugin for WordPress"
+msgstr "Ajouter l’add-on PeepSo Tags, un plugin réseau social pour WordPress"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"

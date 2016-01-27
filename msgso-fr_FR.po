@@ -1,0 +1,401 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: peepso\n"
+"POT-Creation-Date: 2016-01-20 10:06+0800\n"
+"PO-Revision-Date: 2016-01-27 21:52+0100\n"
+"Last-Translator: peepso <paul@peepso.com>\n"
+"Language-Team: French\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: peepsomessages.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Crowdin-Project: peepso\n"
+"X-Crowdin-Language: fr\n"
+"X-Crowdin-File: msgso.pot\n"
+"Language: fr_FR\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: classes/messages.php:63
+msgid "Bulk Actions"
+msgstr "Actions groupées"
+
+#: classes/messages.php:64
+msgid "Mark as Read"
+msgstr "Marqué comme lu"
+
+#: classes/messages.php:65
+msgid "Mark as Unread"
+msgstr "Marqué comme non lu"
+
+#: classes/messages.php:66
+msgid "Archive"
+msgstr "Archive"
+
+#: classes/messages.php:98
+msgid " other"
+msgid_plural " others"
+msgstr[0] " autre"
+msgstr[1] " autres"
+
+#: classes/messages.php:133
+#, php-format
+msgid "%1$s and %2$s"
+msgstr "%1$s et %2$s"
+
+#: classes/messages.php:138
+#, php-format
+msgid "%1$s%2$s"
+msgstr "%1$s%2$s"
+
+#: classes/messages.php:158
+#, php-format
+msgid "<b>%1$d</b>-<b>%2$d</b> of <b>%3$d</b>"
+msgstr "<b>%1$d</b>-<b>%2$d</b> ou <b>%3$d</b>"
+
+#: classes/messages.php:252
+#, php-format
+msgid "Message from %s"
+msgstr "Message de %s"
+
+#: classes/messages.php:380
+#, php-format
+msgid "%s and %d other"
+msgid_plural "%s and %d others"
+msgstr[0] "%s et %d autre"
+msgstr[1] "%s et %d autres"
+
+#: classes/messages.php:404
+msgid "You: "
+msgstr "Vous: "
+
+#: classes/messagesadmin.php:40
+msgid "Character limit per message"
+msgstr "Limites de caractères par message"
+
+#: classes/messagesadmin.php:50 classes/messagesshortcode.php:31
+#: install/activate.php:92 peepsomessages.php:321 peepsomessages.php:350
+#: peepsomessages.php:709 peepsomessages.php:729
+msgid "Messages"
+msgstr "Messages"
+
+#: classes/messagesadmin.php:51
+msgid "These settings control the Messages add-on."
+msgstr "Ces paramètres sont utilisés pour contrôler l’add-on Messages"
+
+#: classes/messagesadmin.php:67
+msgid "New Message Email"
+msgstr "Un nouveau mail Message"
+
+#: classes/messagesadmin.php:68
+msgid "This will be sent to a user when a new message is received."
+msgstr "Ceci sera envoyé à un utilisateur lorsqu’une demande est reçue."
+
+#: classes/messagesajax.php:46 classes/messagesajax.php:86
+msgid "Message sent."
+msgstr "Message envoyé."
+
+#: classes/messagesajax.php:76
+msgid "You are not part of this conversation."
+msgstr "Vous ne pouvez pas prendre part à cette conversation."
+
+#: classes/messagesajax.php:83
+msgid "Failed to send message."
+msgstr "L’envoi du message a échoué."
+
+#: classes/messagesajax.php:300
+msgid "No notifications."
+msgstr "Pas de notification."
+
+#: classes/messagesajax.php:355
+msgid "Created a new group conversation"
+msgstr "Nouvelle conversation de groupe créée"
+
+#: classes/messagesajax.php:381
+#, php-format
+msgid "%1$s %2$s added to the conversation"
+msgstr "%1$s %2$s ont rejoints cette conversation"
+
+#: classes/messagesajax.php:383
+msgid "person"
+msgid_plural "people"
+msgstr[0] "personne"
+msgstr[1] "personnes"
+
+#: classes/messagesmodel.php:241 classes/messagesmodel.php:354
+msgid "No author set."
+msgstr "Aucun auteur ensemble."
+
+#: classes/messagesmodel.php:244 classes/messagesmodel.php:358
+msgid "No participants added."
+msgstr "Aucun participants ajoutés."
+
+#: classes/messagesmodel.php:281 classes/messagesmodel.php:320
+#: classes/messagesmodel.php:499
+msgid "You Received a New Message"
+msgstr "Vous avez reçu un nouveau message"
+
+#: peepsomessages.php:301
+msgid "plugin requires the PeepSo plugin to be installed and activated."
+msgstr "Ce plugin nécessite que le plugin PeepSo soit installé et activé."
+
+#: peepsomessages.php:303
+msgid "Get it now!"
+msgstr "Obtenez-le maintenant!"
+
+#: peepsomessages.php:330
+msgid "New Messages"
+msgstr "Nouveaux messages"
+
+#: peepsomessages.php:375 templates/messages/view-message.php:78
+msgid "Send"
+msgstr "Envoyer"
+
+#: peepsomessages.php:376 templates/messages/view-message.php:21
+msgid "Mute conversation"
+msgstr "Mettre la conversation en sourdine"
+
+#: peepsomessages.php:377 templates/messages/view-message.php:21
+msgid "Unmute conversation"
+msgstr "Désactiver la mise en sourdine pour cette conversation"
+
+#: peepsomessages.php:393
+msgctxt "PeepSo Messages"
+msgid "PeepSo Messages"
+msgstr "Messages de PeepSo"
+
+#: peepsomessages.php:394
+msgctxt "PeepSo Message"
+msgid "PeepSo Message"
+msgstr "Message de PeepSo"
+
+#. Plugin Name of the plugin/theme
+#: peepsomessages.php:395 peepsomessages.php:411 peepsomessages.php:412
+msgid "PeepSo Messages"
+msgstr "Messages de PeepSo"
+
+#: peepsomessages.php:396
+msgid "PeepSo Messages:"
+msgstr "Messages de PeepSo :"
+
+#: peepsomessages.php:397
+msgid "All PeepSo Messages"
+msgstr "Tout PeepSo Messages"
+
+#: peepsomessages.php:398
+msgid "View PeepSo Message"
+msgstr "Voir PeepSo Message"
+
+#: peepsomessages.php:399 peepsomessages.php:400
+msgid "Add New PeepSo Message"
+msgstr "Ajouter un nouveau PeepSo Message"
+
+#: peepsomessages.php:401
+msgid "Edit PeepSo Message"
+msgstr "Modifier PeepSo Message"
+
+#: peepsomessages.php:402
+msgid "Update PeepSo Message"
+msgstr "Mettre à jour PeepSo Message"
+
+#: peepsomessages.php:403
+msgid "Search PeepSo Messages"
+msgstr "Rechercher PeepSo Messages"
+
+#: peepsomessages.php:404 peepsomessages.php:443
+msgid "Not found"
+msgstr "Pas de résultat"
+
+#: peepsomessages.php:405 peepsomessages.php:444
+msgid "Not found in Trash"
+msgstr "Pas trouvé dans la corbeille"
+
+#: peepsomessages.php:406 peepsomessages.php:445
+msgid "sent"
+msgstr "Envoyé"
+
+#: peepsomessages.php:407 peepsomessages.php:446
+msgid "message"
+msgstr "message"
+
+#: peepsomessages.php:432
+msgctxt "PeepSo Messages Inline"
+msgid "PeepSo Messages Inline"
+msgstr "PeepSo Messages en ligne"
+
+#: peepsomessages.php:433
+msgctxt "PeepSo Message Inline"
+msgid "PeepSo Message Inline"
+msgstr "PeepSo Message en ligne"
+
+#: peepsomessages.php:434 peepsomessages.php:450 peepsomessages.php:451
+msgid "PeepSo Messages Inline"
+msgstr "PeepSo Messages en ligne"
+
+#: peepsomessages.php:435
+msgid "PeepSo Messages Inline:"
+msgstr "PeepSo Messages en ligne:"
+
+#: peepsomessages.php:436
+msgid "All PeepSo Messages Inline"
+msgstr "Tout PeepSo Messages en ligne"
+
+#: peepsomessages.php:437
+msgid "View PeepSo Message Inline"
+msgstr "Voir PeepSo Message en ligne"
+
+#: peepsomessages.php:438 peepsomessages.php:439
+msgid "Add New PeepSo Message Inline"
+msgstr "Ajouter un nouveau PeepSo Message en ligne"
+
+#: peepsomessages.php:440
+msgid "Edit PeepSo Message Inline"
+msgstr "Editer PeepSo Message en ligne"
+
+#: peepsomessages.php:441
+msgid "Update PeepSo Message Inline"
+msgstr "Mettre à jour PeepSo Message en ligne"
+
+#: peepsomessages.php:442
+msgid "Search PeepSo Messages Inline"
+msgstr "Rechercher PeepSo Messages en ligne"
+
+#: peepsomessages.php:483
+msgid "Send a message"
+msgstr "Envoyer le message"
+
+#: peepsomessages.php:506 peepsomessages.php:648
+#: templates/messages/dialogs.php:56
+msgid "Send Message"
+msgstr "Envoyer le message"
+
+#: peepsomessages.php:537
+msgid "Your message..."
+msgstr "Votre message…"
+
+#: peepsomessages.php:547
+msgid "Message"
+msgstr "Message"
+
+#: peepsomessages.php:712
+msgid "New Message"
+msgstr "Nouveau Message"
+
+#: templates/messages/conversation-notice-chat.php:6
+#: templates/messages/conversation-notice.php:6
+#, php-format
+msgid "%s has left the conversation"
+msgstr "%s a quitté la conversation conversation"
+
+#: templates/messages/conversation-notice-chat.php:10
+#: templates/messages/conversation-notice.php:10
+#, php-format
+msgid "%s created a new group conversation"
+msgstr "%s a crée une nouvelle conversation de groupe"
+
+#: templates/messages/dialogs.php:2
+msgid "Write Message"
+msgstr "Envoi du Message"
+
+#: templates/messages/dialogs.php:8 templates/messages/dialogs.php:29
+msgid "Recipient"
+msgstr "Destinataire"
+
+#: templates/messages/dialogs.php:21
+msgid "Recipients"
+msgstr "Destinataires"
+
+#: templates/messages/dialogs.php:24
+msgid "Select Recipients"
+msgstr "Sélectionner les destinataires"
+
+#: templates/messages/dialogs.php:55 templates/messages/view-message.php:77
+msgid "Cancel"
+msgstr "Annuler"
+
+#: templates/messages/dialogs.php:76
+msgid "Please select your bulk action."
+msgstr "S’il vous plaît sélectionner votre action."
+
+#: templates/messages/dialogs.php:77
+msgid "Please select at least one message for bulk action."
+msgstr "S’il vous plaît sélectionner au moins un message pour votre action."
+
+#: templates/messages/message-list.php:2
+msgid "Search by content, or user"
+msgstr "Rechercher un contenu ou un utilisateur"
+
+#: templates/messages/message-list.php:10
+msgid "No messages found."
+msgstr "Aucun messages trouvés."
+
+#: templates/messages/messages.php:4
+msgid "My Messages"
+msgstr "Mes messages"
+
+#: templates/messages/mute.php:2
+msgid "How long do you want to mute this conversation?"
+msgstr "Pendant combien de temps souhaitez-vous mettre en sourdine cette conversation ?"
+
+#: templates/messages/mute.php:5
+msgid "30 seconds"
+msgstr "30 secondes"
+
+#: templates/messages/mute.php:6
+msgid "an hour"
+msgstr "une heure"
+
+#: templates/messages/mute.php:7
+msgid "a day"
+msgstr "un jour"
+
+#: templates/messages/mute.php:8
+msgid "a week"
+msgstr "une semaine"
+
+#: templates/messages/mute.php:9
+msgid "until I unmute it"
+msgstr "jusqu'au moment où je décide de la réactiver"
+
+#: templates/messages/mute.php:12
+msgid "Mute"
+msgstr "Mettre en sourdine"
+
+#: templates/messages/view-message.php:20
+#: templates/messages/view-message.php:37
+msgid "Add People to the conversation"
+msgstr "Ajouter des personnes à cette conversation"
+
+#: templates/messages/view-message.php:27
+msgid "Leave this conversation"
+msgstr "Quitter cette conversation"
+
+#: templates/messages/view-message.php:29
+msgid "Are you sure you want to leave this conversation?"
+msgstr "Êtes-vous sûr de vouloir quitter cette conversation?"
+
+#: templates/messages/view-message.php:40
+msgid "Done"
+msgstr "Terminé"
+
+#: templates/messages/view-message.php:74
+msgid "Press \"Enter\" to send"
+msgstr "Appuyez sur « Entrer » pour envoyer"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "https://peepso.com"
+msgstr "https://peepso.com"
+
+#. Description of the plugin/theme
+msgid "Add Messages capability to PeepSo, a Social Networking Plugin for WordPress"
+msgstr "Ajouter l’add-on Message de PeepSo, un plugin réseau social pour Wordpress"
+
+#. Author of the plugin/theme
+msgid "PeepSo"
+msgstr "PeepSo"
